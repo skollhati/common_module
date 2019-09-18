@@ -6,7 +6,7 @@ import datetime
 import logging.handlers
 import logging.config
 import ast
-import BCloudModule.BModule_Singleton as Singleton
+import personal_api.BModule_Singleton as Singleton
 logfile_max = 10 * 1024 *1024
 
 #싱글톤 타입의 로거

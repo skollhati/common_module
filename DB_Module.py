@@ -1,9 +1,9 @@
 # coding: utf-8
 import json
-from BCloudModule.LogModule_Singleton import BCloudLogger_Singleton
+from personal_api.LogModule_Singleton import BCloudLogger_Singleton
 from sqlalchemy import create_engine, exc
 from sqlalchemy.pool import QueuePool
-import BCloudModule.BModule_Singleton as Singleton
+import personal_api.BModule_Singleton as Singleton
 
 #unicode나 형식에 맞지 않는 데이터를 각각 형식에 맞게 변형하는 함수
 #column은 형식이 홑따옴표나 겹따옴표가 필요없는 문자 그대로 들어가야함

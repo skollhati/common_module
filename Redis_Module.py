@@ -1,6 +1,6 @@
 import redis
-import BCloudModule.BModule_Singleton as Singleton
-from BCloudModule.LogModule_Singleton import BCloudLogger_Singleton
+import personal_api.BModule_Singleton as Singleton
+from personal_api.LogModule_Singleton import BCloudLogger_Singleton
 import json
 import pickle
 
